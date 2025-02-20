@@ -1,0 +1,80 @@
+body{
+  font-family: sans-serif;
+  background-image: url("/images/backgroundd.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #003366;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.title{
+  text-align: center;
+  
+
+}
+.title2{
+  text-align: center;
+}
+.menu{
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+a{
+  text-decoration: none;
+  color:#003366;
+  
+}
+
+a:hover{
+  color: rgba(255, 0, 0, 0.801);
+}
+.image{
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+
+}
+
+img{
+  border-radius: 5%;
+}
+
+
+#myReview{
+  display: flex;
+  gap: 20px;
+  margin-top: 2%;
+}
+
+.theme {
+  background-color: #d4dbd9;
+  border-radius: 2%;
+  padding-left: 5%;
+ 
+ 
+}
+
+.review{
+  margin: 50px;
+}
+
+table, th, td{
+  border-collapse: collapse;
+  border-color: black;
+  
+
+}
+
+th, td{
+  padding: 25px;
+  background-color: #d4dbd9;
+  border-radius: 15%;
+  
+
+  
+
+}
